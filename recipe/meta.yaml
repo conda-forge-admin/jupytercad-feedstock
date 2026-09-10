@@ -47,7 +47,7 @@ outputs:
         - hatch-nodejs-version >=0.3.2
       run:
         - python >={{ python_min }}
-        - jupyter_ydoc >=2,<4
+        - jupyter_ydoc >=4.1.1,<5
         - pydantic >=2,<3
     test:
       commands:
